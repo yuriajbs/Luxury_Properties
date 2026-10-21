@@ -1,76 +1,74 @@
 # Luxury Properties
-## 1. Problema de negócio
 
-A Luxury Properties é uma empresa especializada no mercado imobiliário de luxo para locações via Airbnb. Visando diversificar seu portfólio e atender à crescente demanda de clientes brasileiros em Nova York, foi realizada uma análise estratégica desse mercado. O estudo avaliou, entre outros fatores, a qualidade das propriedades disponíveis e o preço médio praticado nas diferentes regiões da cidade. 
+## 1. Business Problem
+Luxury Properties is a company specializing in the luxury real estate market for Airbnb rentals. Aiming to diversify its portfolio and meet the growing demand of Brazilian clients in New York, a strategic analysis of this market was conducted. The study evaluated, among other factors, the quality of available properties and the average prices charged in different regions of the city.
 
-Para um diagnóstico preciso da situação do negócio, foi realizada uma Análise Geral e uma Análise Detalhada:
+For an accurate diagnosis of the business situation, a General Analysis and a Detailed Analysis were conducted:
 
-Análise Geral (Visão Geral):
+General Analysis (Overview):
  
-1.  Qual o maior e menor preço para se hospedar?
-2.  Número de acomodações disponíveis?
-3.  Número de anfitriões únicos?
-4.  Como é a concentração de imóveis por região?
-5.  Onde estão localizados os 20% dos imóveis mais caros para se hospedar?
+1.  What is the highest and lowest price to stay?
+2.  Number of available accommodations?
+3.  Number of unique hosts?
+4.  How is the concentration of properties distributed by region?
+5.  Where are the top 20% most expensive properties to stay located?
 
+Detailed Analysis (Detailed View):
 
+1.  Which accommodations are available?
+2.  How is the distribution of accommodation standards across regions?
+3.  Is the number of reviews growing?
 
-Análise Detalhada (Visão Detalhada):
+The goal of this project is to create a set of charts and/or tables that display these metrics in the best possible way for the manager.
 
-1.  Quais acomodações estão disponíveis?
-2.  Como é a distribuição do padrão das acomodações por região?
-3.  O número de reviews está crescendo?
+## 2. Assumptions Assumed for Analysis
 
-O objetivo desse projeto é criar um conjunto de gráficos e/ou tabelas que exibam essas métricas da melhor forma possível para
-o gestor.
+1.  The analysis was conducted using data between 01/01/2011 and 12/31/2016;
+2.  Traditional commercial model (B2C) was the assumed business model;
+3.  The business views were: General Analysis and Detailed Analysis.
 
-## 2. Premissas assumidas para a análise
+## 3. Solution Strategy
 
-1.  A análise foi realizada com dados entre  01/01/2011 e 31/12/2016;
-2.  Modelo comercial tradicional (B2C) foi o modelo de negócio assumido;
-3.  As  visões do negócio foram: Análise Geral e Análise Detalhada.
+The strategic dashboard was developed using metrics that reflect the 2 views of the business model assumed with the company:
 
-## 3. Estratégia da solução
-
-O painel estratégico foi desenvolvido utilizando as métricas que refletem as 2 visões do modelo de negócio assumidos com a empresa:
- 	1. Visão Geral (Análise Geral);
- 	2. Visão Detalhada (Análise Detalhada);
+ 	1. Overview (General Analysis);
+ 	2. Detailed View (Detailed Analysis);
 
 
 Cada visão é representada pelo seguinte conjunto de métricas:
 
-1.	Análise Geral:
+1.	General Analysis::
 
-    -  Quantidade de acomodações;
-    -  Média de reviews por mês;
-    -  Maior e menor preço por noite;
-    -  Quantidade de anfitriões únicos;
-    -  Concentração de imóveis por região;
-    -  Média de noites mínimas para se hospedar por bairro;
-    -  Anfitriões únicos por região.
+    -  Quantity of accommodations;
+    -  Average reviews per month;
+    -  Highest and lowest price per night;
+    -  Quantity of unique hosts;
+    -  Concentration of properties by region;
+    -  Average minimum nights required to stay by neighborhood;
+    -  Unique hosts by region.
       
-2.	Análise Detalhada:
+2.	Detailed Analysis:
 
-    -  Valor médio global por diária;
-    -  Valor da soma global por diária;
-    -  Identificação de cada acomodação disponível;
-    -  Reviews por ano;
-    -  Distribuição dos níveis de acomodação por região.
-
-
-## 4. Top 3 Insights de dados
-
-1.  Mercado do Airbnb de Nova Iorque: predominantemente formado por imóveis de baixo padrão;
-2.  Anfitriões únicos: a região de Manhattan é a que possui maior número;
-3.  Imóveis disponíveis: as regiões de Manhattan e Brooklin são as de maior concentração; 
+    -  Overall average nightly rate;
+    -  Overall total sum of nightly rates;
+    -  Identification of each available accommodation;
+    -  Reviews per year;
+    -  Distribution of accommodation levels by region.
 
 
-## 5. O produto final do projeto
-Painel em PowerBi, hospedado em  Cloud e disponível para acesso em qualquer dispositivo conectado à internet ou offline mediante "download". O painel pode ser acessado através desse link: https://github.com/yuriajbs/Luxury_Properties.git
+## 4. Top 3 Data Insights
 
-## 6. Conclusão
-O objetivo deste projeto é criar uma visão analítica do mercado do Airbnb da cidade de Nova Iorque. Assim, mediante a Visão Geral e a Visão Detalhada foi possível entender como é a dinâmica da distribuição e níveis dos imóveis cadastrados na plataforma. 
+1.  New York Airbnb Market: predominantly composed of low-standard properties;
+2.  Unique hosts: the region of Manhattan has the highest count;
+3.  Available properties: Manhattan and Brooklyn are the regions with the highest concentration;
 
-## 7. Para o futuro
-1.  Desenvolver e implementar novos filtros dinâmicos;
-2.  Adicionar novas visões de negócio;
+
+## 5. Final Deliverable
+Power BI Dashboard, hosted in the cloud and available for access on any internet-connected device or offline via download. The dashboard can be accessed through this link: https://github.com/yuriajbs/Luxury_Properties.git
+
+## 6. Conclusion
+The objective of this project is to create an analytical overview of the Airbnb market in New York City. Thus, through the Overview and Detailed View, it was possible to understand the dynamics of property distribution and standard levels registered on the platform.
+
+## 7. Next Steps & Future Work
+1.  Develop and implement new dynamic filters;
+2.  Add new business views.
